@@ -1,0 +1,6 @@
+click
+pylint
+flake8
+mypy
+black
+bandit
