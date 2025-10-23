@@ -38,7 +38,7 @@ def main() -> None:
                 remove_task(task_id)
             except ValueError:
                 print("Enter Valid numeric task ID: ")
-        
+
         elif choice == "6":
             break
         else:
@@ -47,3 +47,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
