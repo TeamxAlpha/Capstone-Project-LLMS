@@ -1,48 +1,11 @@
-# === Python ===
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-*.pdb
-*.egg
-*.egg-info/
-*.manifest
-*.spec
-
-# === Virtual environment ===
-venv/
-env/
-ENV/
 .venv/
-.ENV/
-
-# === IDE / Editor files ===
+venv/
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# === Build / Distribution ===
 build/
 dist/
-*.log
-*.pot
-*.mo
-*.cache/
-*.coverage
-.coverage.*
-nosetests.xml
-coverage.xml
-*.tox/
-.tox/
-.pytest_cache/
 .mypy_cache/
-.dmypy.json
-.pyre/
-
-# === OS specific ===
-.DS_Store
-Thumbs.db
-
-# === Project specific ===
-data.json  # if you don’t want to track runtime task data
+.pytest_cache/
+data.json
